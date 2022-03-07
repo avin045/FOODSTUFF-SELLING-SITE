@@ -1,0 +1,358 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Navbar */
+
+.brandicon {
+  color: chartreuse;
+}
+
+div i {
+  padding-right: 4px;
+}
+
+.brandicon:hover {
+  color: red;
+}
+
+#brand:hover {
+  font-size: 1.4rem;
+}
+
+section.bg-green {
+  /* background-color: ; */
+  background: #e00f74; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #994b14,
+    #ac0d5a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnsquare {
+  border-radius: 0px;
+}
+
+@media only screen and (min-width: 1240px) {
+  .nedpad {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.dropdown-menu li a {
+  /* background-color: darkkhaki; */
+  color: silver;
+}
+.dropdown-menu li a:hover {
+  background-color: darkkhaki;
+  color: black;
+}
+/* Navbar ends */
+
+/* ---------------------------------------------------- */
+
+/* Showcase */
+
+/* div img:hover{
+  width: 240px;
+  height: 240px;
+/* } */ /*  it wont work */
+
+a.anim:hover {
+  /* background-color: green; */
+  border: none;
+  transform: translate3d(10px, 5px, 0);
+  /* transform: rotate3d(0,1,0,180deg); */
+}
+
+/* div.indtxt h1:hover,span:hover{
+    color:lightcoral;
+} */
+/* showcase ends */
+
+/* ----------------------------------------------------- */
+
+/* news letter */
+
+blockquote:before {
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  /* position: absolute;
+  
+  line-height: 1; */
+  /* top: 0;
+  left: 0; */
+  content: "\201C";
+  color: silver;
+}
+blockquote:after {
+  font-family: Georgia, serif;
+  /* position: absolute; */
+  /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+  /* float: right; */
+  font-size: 2rem;
+  /* line-height: 1;
+  right: 0;
+  bottom: -0.5em; */
+  content: "\201D";
+  color: silver;
+}
+
+.news-letter {
+  display: inline-flex;
+}
+
+@media (min-width: 768px) and (max-width: 786px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+/* @media only screen and (min-width:900px) {
+    .nlsize{
+        width: 0px;
+    } 
+} */
+
+/* bg for newsletter */
+
+section.bg-grady {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #228548,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* ---------------------------------------------------------- */
+
+/* boxes */
+
+/* start cards readmore and readless styling */
+.more-less {
+  display: none;
+}
+.textbind.textmore .more-less {
+  display: inline;
+}
+
+.more-less2 {
+  display: none;
+}
+.textbind2.textmore2 .more-less2 {
+  display: inline;
+}
+
+.more-less3 {
+  display: none;
+}
+.textbind3.textmore3 .more-less3 {
+  display: inline;
+}
+/* end cards readmore and readless styling */
+
+/* boxes end */
+
+/* ------------------------------------------------- */
+
+/* Learn Sections1 start */
+
+/* .imgg{
+    margin-top: 35px;
+
+} */
+.sky {
+  background-color: rgba(72, 160, 182, 0.63);
+}
+.hide {
+  display: none;
+}
+
+.hide.reveal {
+  display: inline-block;
+}
+
+.hide2 {
+  display: none;
+}
+
+.hide2.reveal2 {
+  display: inline-block;
+}
+
+/* .img1{
+    width: 70%;
+} */
+
+.secread {
+  display: inline-block;
+}
+
+.section2 {
+  display: inline-block;
+}
+/* .opacy1{
+  opacity: 0.9;
+} */
+/* Learn Section1 end */
+
+/* Learn Section2 start */
+.opacy2 {
+  opacity: 1;
+}
+
+/* Learn Section2 ends */
+
+/* contact us */
+li.align {
+  margin-right: 20%;
+}
+
+/* map */
+#map {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* footer start */
+.footer-dark {
+  padding: 20px 0 10px; /*  padding: top right bottom left;*/
+  color: #f0f9ff;
+  background-color: #212122;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-dark .item.social > a {
+  font-size: 1.5rem;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  /* box-shadow:0 0 0 1px rgba(255,255,255,0.4); */
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item #v {
+  /* #v specifies the ID of the class=iconify which are present in .item(.item specifies the class in index.html)*/
+  height: auto;
+  width: auto;
+  font-size: 2vh;
+}
+
+.footer-dark .item.text p:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+  font-size: 1.7rem;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 19px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-dark .copyright:hover {
+  cursor: pointer;
+  animation: up 0.5s ease-in;
+}
+
+@keyframes up {
+  10% {
+    transform: translateY(20%);
+  }
+}
+
+.footer-dark .item h4 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.footer-dark .item h4:hover {
+  color: silver;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .footer-dark .copyright {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+  .footer-dark .copyright {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-dark .copyright {
+    font-size: 13px;
+  }
+}
+
+/* footer end */
+
+/* back to top buttton starts */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  /* display: none; */
+  /* display: ; */
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1020px) {
+  #btn-back-to-top {
+    display: inline-block;
+    right: 10px;
+    bottom: 45px;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 5;
+  }
+}

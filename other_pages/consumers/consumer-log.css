@@ -1,0 +1,110 @@
+/* Change autocomplete styles in WebKit */
+input[type="text"]:-webkit-autofill,
+input[type="text"]:-webkit-autofill:hover,
+input[type="text"]:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  /* border-radius: 0px; */
+  -webkit-text-fill-color: rgb(241, 235, 235);
+  box-shadow: 0 0 500px 1000px #25272a inset !important;
+
+  caret-color: rgb(234, 239, 241);
+}
+
+body {
+  /* background-color: #2f3364 !important; */
+  /* opacity: 0.6; */
+}
+
+div.logtit > span {
+  color: rgb(63, 226, 63);
+}
+
+div.logtit > span:hover {
+  color: rgb(197, 45, 45);
+  font-size: 2.5rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  color: silver;
+  /* color: cornsilk; */
+}
+
+/* #loginform{
+    border-radius: 100%;
+} */
+
+#loginform i {
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+}
+
+#loginform input[type="text"],
+input[type="password"] {
+  /* background-color: transparent !important; */
+  border: none;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  /* border-color: transparent; */
+  /* outline: none; */
+}
+
+*:focus {
+  /* background-color: transparent; */
+  outline: none;
+  border-style: none;
+  border-color: transparent;
+}
+
+/* to remove the row(border line from )Modals */
+div.modal-content .modal-header {
+  border: none;
+  border-color: transparent;
+  border-width: 0px;
+  padding-bottom: 2px;
+}
+
+.eye {
+  position: absolute;
+  font-size: 18px;
+  bottom: 5px;
+  right: 10px;
+  background-color: transparent;
+  border: unset;
+  color: thistle;
+  position: static;
+}
+
+/* form control */
+/* .form-control {
+  background-color: #25272a !important;
+  box-shadow: none;
+  color: #fff;
+  border-color: #4f63e7;
+} */
+
+/* form control */
+.form-control {
+  background-color: transparent !important;
+  box-shadow: none;
+  color: #fff;
+  /* border-color: #4f63e7; */
+}
+.form-input {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}

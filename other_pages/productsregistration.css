@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+div.headerp span {
+  color: lightgreen;
+}
+
+div.headerp span:hover {
+  font-size: 3rem;
+  color: purple;
+}
+
+input[type="radio"]:checked {
+  /* color: green; */
+  background-color: green;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+#username{
+  font-family: 'Stylish', sans-serif;
+  color: silver;
+  opacity: 0.8;
+}
+
+#username1{
+  font-family: 'Stylish', sans-serif;
+  color:whitesmoke;
+  opacity: 0.8;
+}
+
+/* input[type="file"] {
+} */

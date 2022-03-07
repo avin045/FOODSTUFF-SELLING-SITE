@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff;
+  box-shadow: 0 0 0px 1000px #000 inset;
+  caret-color: whitesmoke; /*changes the cursor color to white*/
+}
+body {
+  /* background-color: #2f3364 !important; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.card {
+  border: none;
+  padding: 20px;
+  /* background-color: #1c1e21 !important; */
+  color: #fff;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #49a9cf;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 50%;
+}
+
+.form-control {
+  background-color: #1c1e21 !important;
+}
+
+.form-control:focus {
+  background-color: #25272a !important;
+  box-shadow: none;
+  color: #fff;
+  /* border-color: #4f63e7; */
+}
+
+.form-check-label {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+/* to remove the row(border line from )Modals */
+div.modal-content .modal-header {
+  border: none;
+  border-color: transparent;
+  border-width: 0px;
+  padding-bottom: 2px;
+}
